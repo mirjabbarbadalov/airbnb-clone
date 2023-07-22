@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <div className="hero">
-      <img className="hero--img" src="src\images\hero.png" alt="hero image" />
+      <img className="hero--img" src="./src/images/hero.png" alt="hero image" />
       <div className="hero--info">
         <h1 className="hero--title">Online Experiences</h1>
         <div className="hero--desc--sec">

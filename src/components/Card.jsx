@@ -20,7 +20,11 @@ export default function Card({
       {badgeText && <div className="card--badge">{badgeText}</div>}
       <img className="card--image" src={img} alt="girl image" />
       <div className="card--stats">
-        <img className="card--star" src="src\images\star.png" alt="star png" />
+        <img
+          className="card--star"
+          src="./src/images/star.png"
+          alt="star png"
+        />
         <span>{rating}</span>
         <span className="gray">({reviewCount}) &#x2022; </span>
         <span className="gray">{country}</span>
